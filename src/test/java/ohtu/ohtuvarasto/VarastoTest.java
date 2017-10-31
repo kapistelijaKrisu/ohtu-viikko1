@@ -125,9 +125,6 @@ public class VarastoTest {
         assertEquals(10, new Varasto(10,-10).getTilavuus(), vertailuTarkkuus); 
         
         assertEquals(5, new Varasto(5,10).getTilavuus(), vertailuTarkkuus);
-        assertEquals(10, new Varasto(10,10).getTilavuus(), vertailuTarkkuus);
-        
-        assertEquals(5, 2, vertailuTarkkuus);
-        
+        assertEquals(10, new Varasto(10,10).getTilavuus(), vertailuTarkkuus);        
     }
 }
